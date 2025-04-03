@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.header-logo {
+  width: 60px;
+  height: auto;
+}
+
+.header {
+  background-color: rebeccapurple;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-div {
+  background-color: aqua;
+}
+
+.main-launching-text {
+  font-size: 25px;
+  color: #969696;
+}
+
+.main-launching-span {
+  color: black;
+}
+
+.main-illustration-img {
+  width: 650px;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

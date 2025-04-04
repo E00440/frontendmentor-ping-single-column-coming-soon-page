@@ -35,6 +35,7 @@ function invalidEmailInput() {
   errorElement.innerHTML = `<em>please provide a valid email address</em>`;
   errorElement.classList.add('error-display');
   inputElement.classList.add('invalid-email-input');
+  errorElement.classList.remove('subscribed-display');
 }
 
 function validEmailInput() {

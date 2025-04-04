@@ -5,8 +5,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://github.com/E00440/frontendmentor-ping-single-column-coming-soon-page)
+- Live Site URL: (https://frontendmentorpingsinglecolumn.netlify.app)
 
 
 

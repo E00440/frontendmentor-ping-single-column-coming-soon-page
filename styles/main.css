@@ -16,6 +16,7 @@ img {
 
 body {
   background-color: white;
+  max-width: 100%;
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
   display: flex;
@@ -32,10 +33,6 @@ body {
   height: auto;
 }
 
-.header {
-  background-color: rebeccapurple;
-}
-
 .footer {
   position: fixed;
   bottom: 0;
@@ -45,10 +42,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
-.main-div {
-  background-color: aqua;
+.main-div-one {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .main-launching-text {
@@ -60,10 +62,111 @@ body {
   color: black;
 }
 
-.main-illustration-img {
-  width: 650px;
+.main-subscribe-text {
+  font-size: 15px;
+  font-weight: 500;
 }
 
+.main-div-two {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.main-email-input {
+  width: 250px;
+  height: 35px;
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid #969696;
+  border-radius: 25px;
+  outline: none;
+}
+
+
+.invalid-email-input {
+  border: 1px solid red;
+}
+
+.main-submit-button {
+  width: 120px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #4f7df3;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main-submit-button:hover {
+  opacity: 0.75;
+}
+
+.error-display {
+  font-size: 12px;
+  padding-left: 20px;
+  color: red;
+}
+
+.subscribed-display {
+  font-size: 12px;
+  padding-left: 20px;
+  color: green;
+}
+
+
+.main-illustration-img {
+  width: 450px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.main-div-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-background {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 0.1px solid #969696;
+}
+
+.icons-container i {
+  font-size: 16px;
+  border-radius: 50%;
+  color: #4f7df3;
+  cursor: pointer;
+}
+
+.icons-container i:hover {
+  color: white;
+}
+
+.icon-background:hover {
+  background-color: #4f7df3;
+}
+
+.main-copyright {
+  font-size: 12px;
+  color: #969696;
+}
 
 
 

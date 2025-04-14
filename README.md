@@ -5,7 +5,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: (https://github.com/E00440/frontendmentor-ping-single-column-coming-soon-page)
+- Solution URL: (https://github.com/Emmanuel-Malik/frontendmentor-ping-single-column-coming-soon-page)
 - Live Site URL: (https://frontendmentorpingsinglecolumn.netlify.app)
 
 
@@ -21,5 +21,5 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Author
 
-- Website - (https://github.com/E00440)
+- Website - (https://github.com/Emmanuel-Malik)
 - Frontend Mentor - (https://www.frontendmentor.io/profile/E00440)
